@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.canvas.Canvas?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
+            prefWidth="1080.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.angon.PrimaryController">
+   <ScrollPane fx:id="scroll_pane_canvas" layoutX="7.0" layoutY="7.0" prefHeight="600.0" prefWidth="700.0"
+               style="-fx-background: #ffffff;">
+      <Canvas fx:id="canvas" height="1920.0" width="1920.0"/>
+   </ScrollPane>
+   <AnchorPane layoutY="620.0" prefHeight="100.0" prefWidth="1080.0" style="-fx-background-color: #000000;">
+      <ImageView fitHeight="93.0" fitWidth="120.0" layoutX="16.0" layoutY="3.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../../assets/Alliance.png"/>
+      </ImageView>
+      <Label layoutX="142.0" layoutY="14.0" text="Angon" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="50.0"/>
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="85.0" layoutX="866.0" layoutY="8.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../../assets/SPMU.png"/>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="85.0" layoutX="975.0" layoutY="11.0" pickOnBounds="true"
+                 preserveRatio="true">
+         <Image url="@../../assets/ITM-19.png"/>
+      </ImageView>
+      <Label layoutX="691.0" layoutY="15.0" text="Галимов В.Т." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0"/>
+         </font>
+      </Label>
+      <Label layoutX="517.0" layoutY="52.0" text="Saint-Petersburg Mining University" textFill="#4f4f4f">
+         <font>
+            <Font name="System Bold" size="20.0"/>
+         </font>
+      </Label>
+   </AnchorPane>
+   <ScrollPane fx:id="scroll_pane_data" layoutX="715.0" layoutY="7.0" prefHeight="490.0" prefWidth="355.0">
+      <AnchorPane fx:id="anchor_pane_data" prefHeight="488.0" prefWidth="352.0">
+         <Label layoutX="20.0" layoutY="19.0" text="P1">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Label>
+         <TextField fx:id="text_field_x1" layoutX="52.0" layoutY="14.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="x" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <TextField fx:id="text_field_y1" layoutX="153.0" layoutY="14.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="y" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <Button fx:id="delete_data_button1" layoutX="254.0" layoutY="14.0" mnemonicParsing="false" text="Delete">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Button>
+         <Label layoutX="20.0" layoutY="63.0" text="P2">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Label>
+         <TextField fx:id="text_field_x2" layoutX="52.0" layoutY="58.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="x" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <TextField fx:id="text_field_y2" layoutX="153.0" layoutY="58.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="y" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <Button fx:id="delete_data_button2" layoutX="254.0" layoutY="58.0" mnemonicParsing="false" text="Delete">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Button>
+         <Label layoutX="20.0" layoutY="107.0" text="P3">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Label>
+         <TextField fx:id="text_field_x3" layoutX="52.0" layoutY="102.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="x" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <TextField fx:id="text_field_y3" layoutX="153.0" layoutY="102.0" prefHeight="31.0" prefWidth="85.0"
+                    promptText="y" text="0">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <Button fx:id="delete_data_button3" layoutX="254.0" layoutY="102.0" mnemonicParsing="false"
+                 text="Delete">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Button>
+         <Button fx:id="add_data_button" layoutX="52.0" layoutY="146.0" mnemonicParsing="false"
+                 onAction="#clickOnAddButton" prefHeight="31.0" prefWidth="186.0" text="Add">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Button>
+         <Button fx:id="clear_data_button" layoutX="52.0" layoutY="190.0" mnemonicParsing="false"
+                 onAction="#clickOnClearButton" prefHeight="31.0" prefWidth="186.0" text="Clear">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </Button>
+      </AnchorPane>
+   </ScrollPane>
+   <Label layoutX="725.0" layoutY="505.0" text="Square">
+      <font>
+         <Font name="System Bold" size="30.0"/>
+      </font>
+   </Label>
+   <Label layoutX="725.0" layoutY="560.0" text="Perimeter">
+      <font>
+         <Font name="System Bold" size="30.0"/>
+      </font>
+   </Label>
+   <TextField fx:id="text_field_square" layoutX="879.0" layoutY="505.0" prefHeight="46.0" prefWidth="180.0">
+      <font>
+         <Font name="System Bold" size="20.0"/>
+      </font>
+   </TextField>
+   <TextField fx:id="text_field_perimeter" layoutX="879.0" layoutY="560.0" prefHeight="46.0" prefWidth="180.0">
+      <font>
+         <Font name="System Bold" size="20.0"/>
+      </font>
+   </TextField>
+</AnchorPane>

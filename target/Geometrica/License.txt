@@ -1,0 +1,18 @@
+The program "Geometrica" was created by Angon corp.
+Author: Vadim Galimov. Saint-Petersburg, Russia. 2021
+
+This copy of program can be freely distributed in non-commercial purposes.
+
+Created under standard Oracle JDK License.
+Created using JDK 15.0.2.
+Created as a course work for Saint-Petersburg Mining University, Faculty of Economics, ITM-19, 2021.
+
+Used images and links:
+- Blizzard Alliance emblem, Blizzard Entertainment
+- Saint-Petersburg Mining University emblem, Saint-Petersburg Mining University
+- Saint-Petersburg Mining University label, Saint-Petersburg Mining University
+- ITM-19 emblem, ITM-19, Angon corp., Galimov Vadim
+- Geometrica icon, open license
+
+Geometrica v1.0
+Saint-Petersburg, Russia, 2021
