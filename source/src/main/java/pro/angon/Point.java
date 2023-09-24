@@ -1,4 +1,4 @@
-package com.angon;
+package pro.angon;
 
 public class Point {
 

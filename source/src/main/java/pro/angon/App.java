@@ -1,4 +1,4 @@
-package com.angon;
+package pro.angon;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -1,4 +1,4 @@
-package com.angon;
+package pro.angon;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
