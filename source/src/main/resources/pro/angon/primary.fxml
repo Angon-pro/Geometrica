@@ -18,31 +18,12 @@
       <Canvas fx:id="canvas" height="1920.0" width="1920.0"/>
    </ScrollPane>
    <AnchorPane layoutY="620.0" prefHeight="100.0" prefWidth="1080.0" style="-fx-background-color: #000000;">
-      <ImageView fitHeight="93.0" fitWidth="120.0" layoutX="16.0" layoutY="3.0" pickOnBounds="true"
-                 preserveRatio="true">
-         <Image url="@../../assets/Alliance.png"/>
+      <ImageView fitHeight="93.0" layoutX="15.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../assets/Angon_logo.png"/>
       </ImageView>
-      <Label layoutX="142.0" layoutY="14.0" text="Angon" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="50.0"/>
-         </font>
-      </Label>
-      <ImageView fitHeight="90.0" fitWidth="85.0" layoutX="866.0" layoutY="8.0" pickOnBounds="true"
-                 preserveRatio="true">
-         <Image url="@../../assets/SPMU.png"/>
-      </ImageView>
-      <ImageView fitHeight="80.0" fitWidth="85.0" layoutX="975.0" layoutY="11.0" pickOnBounds="true"
-                 preserveRatio="true">
-         <Image url="@../../assets/ITM-19.png"/>
-      </ImageView>
-      <Label layoutX="691.0" layoutY="15.0" text="Галимов В.Т." textFill="WHITE">
+      <Label layoutX="825.0" layoutY="30.0" text="Vadim T. Galimov" textFill="WHITE">
          <font>
             <Font name="System Bold" size="25.0"/>
-         </font>
-      </Label>
-      <Label layoutX="517.0" layoutY="52.0" text="Saint-Petersburg Mining University" textFill="#4f4f4f">
-         <font>
-            <Font name="System Bold" size="20.0"/>
          </font>
       </Label>
    </AnchorPane>

@@ -240,7 +240,7 @@ public class PrimaryController implements Initializable {
     private void setRestrictions(TextField textField) {
         textField.textProperty().addListener(
                 (observable, oldValue, newValue) -> {
-                    if (textField.getText().equals("")) {
+                    if (textField.getText().isEmpty()) {
                         textField.setText("0");
                     }
                     if (!newValue.matches("-?[0-9]*[.]?[0-9]{0,3}")) {
