@@ -1,4 +1,4 @@
-module com.angon {
+module pro.angon {
     requires javafx.controls;
     requires javafx.fxml;
 
