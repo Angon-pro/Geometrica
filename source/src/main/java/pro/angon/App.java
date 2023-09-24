@@ -15,7 +15,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Scene scene = new Scene(loadFXML(), 1080, 720);
-        stage.getIcons().add(new Image(Objects.requireNonNull(App.class.getResourceAsStream("/assets/icon.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(
+                App.class.getResourceAsStream("/assets/icon.png"))));
         stage.setTitle("Geometrica");
         stage.setResizable(false);
         stage.setScene(scene);

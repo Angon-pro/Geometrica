@@ -24,8 +24,10 @@ public class AnimatedZoomOperator {
         double dy = (y - (bounds.getHeight() / 2 + bounds.getMinY()));
         timeline.getKeyFrames().clear();
         timeline.getKeyFrames().addAll(
-                new KeyFrame(Duration.millis(120), new KeyValue(node.translateXProperty(), node.getTranslateX() - f * dx)),
-                new KeyFrame(Duration.millis(120), new KeyValue(node.translateYProperty(), node.getTranslateY() - f * dy)),
+                new KeyFrame(Duration.millis(120), new KeyValue(node.translateXProperty(),
+                        node.getTranslateX() - f * dx)),
+                new KeyFrame(Duration.millis(120), new KeyValue(node.translateYProperty(),
+                        node.getTranslateY() - f * dy)),
                 new KeyFrame(Duration.millis(120), new KeyValue(node.scaleXProperty(), scale)),
                 new KeyFrame(Duration.millis(120), new KeyValue(node.scaleYProperty(), scale))
         );
