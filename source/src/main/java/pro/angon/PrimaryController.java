@@ -286,7 +286,7 @@ public class PrimaryController implements Initializable {
                     GraphicsContext graphicsContext = canvas.getGraphicsContext2D();
                     redraw(graphicsContext);
                 } catch (NumberFormatException exception) {
-                    System.out.println(exception.getMessage() + " at setOnEditPointUpdater()");
+                    System.out.println(exception.getMessage() + " at setOnEditUpdater()");
                 }
             }
         });
